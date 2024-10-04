@@ -1,0 +1,78 @@
+
+nav ul{
+    text-align: right;
+    text-decoration: none;
+    margin: 15px;
+    
+}
+
+nav ul a{
+    text-align: right;
+    text-decoration: none;
+    text-shadow: 4px 6px 9px lime;
+    color: white;
+    padding: 22px;
+    
+    
+    
+}
+body{
+    background-color: darkslategrey;
+    border: 30px;
+}
+.content h2{
+    color: lightsalmon;
+    
+    margin: 2px;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: 4px 6px 8px lightgrey;
+
+    
+}
+content h1{
+    color: lightblue;
+    text-shadow: 4px 6px 9px lightseagreen;
+}
+p{
+    text-decoration: none;
+    color:lightblue;
+    text-shadow: 4px 6px 9px lightseagreen;
+}
+button{
+    color: darkred;
+    text-shadow: 12px 20px 10px lightcoral;
+    
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+
+
+}
+.icons{
+    text-align: left;
+    color: white;
+}
+.image{
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    
+}
+.image img{
+    height: 100%;
+    position: absolute;
+    right: 16px;
+    left: 90%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+a:hover{
+    color: orange;
+    
+}
